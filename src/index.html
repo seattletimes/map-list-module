@@ -6,8 +6,9 @@
       <%= t.include("partials/_dataLayer.html") %>
       <link rel="preload" href="https://htlbid.com/v3/seattletimes.com/htlbid.css" as="style" />
       <link rel="preload" href="https://htlbid.com/v3/seattletimes.com/htlbid.js" as="script" />
-      <link rel='stylesheet' tvpe='text/css' href='https://htlbid.com/v3/seattletimes.com/htlbid.css' />
-
+      <link rel='stylesheet' type='text/css' href='https://htlbid.com/v3/seattletimes.com/htlbid.css' />
+      <link rel="stylesheet" type='text/css' href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
       <script src="https://htlbid.com/v3/seattletimes.com/htlbid.js" class="optanon-category-SN" async></script>
       <script src="https://www.seattletimes.com/wp-content/plugins/st-advertising/dist/st-projects-bundle.js" async></script>
     <% } %>
@@ -20,9 +21,12 @@
     <% if (json.project.production && !json.project.embedded) { %>
       <%= t.include("partials/_gtmNoScript.html") %>
     <% } %>
-    <side-chain>
-      <!-- content goes here -->
-    </side-chain>
+
+    <!-- <h1>Map module</h1> -->
+    <div id="map"></div>
+    
+
+
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
