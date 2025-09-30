@@ -13,15 +13,26 @@ guest.sendMessage({
   eventLabel: 'etc'
 })
 
-console.log(L);
+fetch('../../data/map-module.sheet.json')
+  .then(response => response.json())
+  .then(data => {
+    const locations = data; // or just use 'data' directly
+    
+    console.log(locations); // Check what you got
+    
+    // Now you can loop through and use it
+    // addMarkers(locations);
+  });
 
 const map = L.map('map')
 map.setView([47.6108, -122.3307], 11);
 
-L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: 'abcd'
-}).addTo(map);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',     crossOrigin: 'anonymous' }).addTo(map)
+
+
+function addMarkers(){
+
+}
 
 L.marker([47.661269, -122.342919], {
   title: "Meowtropolitan Cafe",

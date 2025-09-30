@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Seattle Meowtropolitan",
+    "address": "1225 N. 45th St.",
+    "website": "https://www.seameow.com/"
+  },
+  {
+    "name": "Neko Cat Cafe",
+    "address": "519 E. Pine St.",
+    "website": "https://www.nekocatcafe.com/ "
+  },
+  {
+    "name": "Coby's Cafe",
+    "address": "101 Nickerson Street Building B Ste 200",
+    "website": "https://www.cobyscafe.com/"
+  },
+  {
+    "name": "The Outer Rim",
+    "address": "2821 Thorndyke Ave. W, Seattle 98199",
+    "website": "https://www.theouterrimseattle.com/"
+  },
+  {
+    "name": "Stitch Cafe",
+    "address": "1408 E Pine St, Seattle, WA 98122",
+    "website": "https://stitch.cafe/index.html"
+  },
+  {
+    "name": "Peloton Cafe Bike Shop",
+    "address": "1224 E. Jefferson St.",
+    "website": "https://www.instagram.com/pelotonseattle/?hl=en"
+  }
+]

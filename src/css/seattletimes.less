@@ -15,16 +15,42 @@
 }
 
 // map-list-module styles
-#map {
-  // position: absolute;
-  // top:0;
-  // bottom:0;
-  // left:0;
-  // right:0;
-  width:1000px;
-  height:600px;
+
+#map-container {
+  max-width:800px;
+  height:400px;
+  display:flex;
+  flex-direction: row;
+}
+
+#map-sidebar {
+  width:30%;
+  height:100%;
+  // background-color: green;
+  overflow:scroll;
 
 }
+
+#map {
+  width:70%;
+  height:100%;
+}
+
+#sidebar-ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.sidebar-li {
+  list-style-type: none;
+  min-height:100px;
+  // background-color:rgb(124, 87, 0);
+  width:100%;
+  padding: 0px;
+  margin: 0px;
+  border-bottom: 1.5px solid black;
+}
+
 
 
 //elements
