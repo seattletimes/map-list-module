@@ -1,32 +1,49 @@
 [
   {
     "name": "Seattle Meowtropolitan",
-    "address": "1225 N. 45th St.",
-    "website": "https://www.seameow.com/"
+    "website": "https://www.seameow.com/",
+    "result": "47.6612167,-122.342962",
+    "lat": 47.6612167,
+    "long": -122.342962
   },
   {
     "name": "Neko Cat Cafe",
-    "address": "519 E. Pine St.",
-    "website": "https://www.nekocatcafe.com/ "
+    "address": "519 E Pine St, Seattle, WA 98122",
+    "website": "https://www.nekocatcafe.com/ ",
+    "result": "47.6150859,-122.3247934",
+    "lat": 47.6150859,
+    "long": -122.3247934
   },
   {
     "name": "Coby's Cafe",
-    "address": "101 Nickerson Street Building B Ste 200",
-    "website": "https://www.cobyscafe.com/"
+    "address": "101 Nickerson Street Building B Ste 200, Seattle, Washington 98109",
+    "website": "https://www.cobyscafe.com/",
+    "result": "47.64849330000001,-122.355227",
+    "lat": 47.6484933,
+    "long": -122.355227
   },
   {
     "name": "The Outer Rim",
     "address": "2821 Thorndyke Ave. W, Seattle 98199",
-    "website": "https://www.theouterrimseattle.com/"
+    "website": "https://www.theouterrimseattle.com/",
+    "result": "47.6454645,-122.3830876",
+    "lat": 47.6454645,
+    "long": -122.3830876
   },
   {
     "name": "Stitch Cafe",
     "address": "1408 E Pine St, Seattle, WA 98122",
-    "website": "https://stitch.cafe/index.html"
+    "website": "https://stitch.cafe/index.html",
+    "result": "47.61543510000001,-122.3135971",
+    "lat": 47.6154351,
+    "long": -122.3135971
   },
   {
     "name": "Peloton Cafe Bike Shop",
-    "address": "1224 E. Jefferson St.",
-    "website": "https://www.instagram.com/pelotonseattle/?hl=en"
+    "address": "1224 E Jefferson St, Seattle, Washington 98122",
+    "website": "https://www.instagram.com/pelotonseattle/?hl=en",
+    "result": "47.6063398,-122.3156472",
+    "lat": 47.6063398,
+    "long": -122.3156472
   }
 ]
